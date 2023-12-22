@@ -1,5 +1,7 @@
 # SketchSphere: Toon Shader with Three.js and WebGL
 
+<img src="universe-visualization.png" alt="Universe Visualization" width="400px" />
+
 **SketchSphere** is a graphic project that brings the artistic style of toon shading to 3D models using Three.js and WebGL. The project focuses on rendering techniques that mimic the classic hand-drawn aesthetics of cartoons.
 
 ## Features
