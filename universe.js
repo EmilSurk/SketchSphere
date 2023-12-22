@@ -130,8 +130,8 @@ function loadSTLModel() {
     loader.load('low_drogon-scaled.stl', function (geometry) {
 
         // Charger les shader depuis les fichiers
-        const vertexShaderSource = loadFile("./tp3.vert");
-        const fragmentShaderSource = loadFile("./tp3.frag");
+        const vertexShaderSource = loadFile("./shader.vert");
+        const fragmentShaderSource = loadFile("./shader.frag");
 
         // Création du matériau shader à partir des sources chargées
         material = createMaterial(vertexShaderSource, fragmentShaderSource);
