@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>INF5071-TP3</title>
+    <style>
+        body{
+            font-size: 1.5em;
+            text-align: center;
+        }
+        ul {
+            display: table;
+            margin: 0 auto;
+            text-align: left;
+        }
+    </style>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.157.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.157.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <script src="https://greggman.github.io/webgl-lint/webgl-lint.js" crossorigin></script>
+    <script type="module" src="tp3.js"></script>
+    
+
+</head>
+
+<body>
+<h1>INF5071 - TP3</h1>
+<div id="canvas-holder">
+    <canvas id="canvas" width="1024" height="576"></canvas>
+</div>
+
+</body>
